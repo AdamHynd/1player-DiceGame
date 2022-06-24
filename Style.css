@@ -1,0 +1,63 @@
+#background {
+    background-color: rgb(237, 232, 241);
+}
+#title {
+    color: darkslategray;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+#board {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#score {
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style: double;
+    border-color: black;
+    background-color: wheat;
+    padding: 0px 50px 20px;
+    color: rgb(13, 0, 128);
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#dice {
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style: double;
+    padding: 50px 35px 50px;
+    border-color: black;
+    background-color: rgb(233, 155, 12);
+    font-size: 50px;
+}
+#roll {
+    display: flex;
+    justify-content: center;
+}
+#rollBtn {
+    background-color: slategrey;
+    color: greenyellow;
+    font-size: 50px;
+}
+#message {
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style: double;
+    border-color: black;
+    background-color: wheat;
+    color: blueviolet;
+    padding: 15px;
+    text-align: center;
+
+}
+#rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    color: aqua;
+}
