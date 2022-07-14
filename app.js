@@ -23,7 +23,7 @@ let diceside = {
 
 // I think this might be where ive gone wrong as it dosent roll when i press the button 
 const rollDie = ()=>{
-    ranDie = Math.floor((math.random()*6)+1)
+    ranDie = Math.floor((Math.random()*6)+1)
     document.getElementById("dice").src = diceside["d" + ranDie];
     gamescore = (gamescore + ranDie);
     currentscore.textContent = gamescore;
@@ -53,13 +53,13 @@ const checkGameStatus = ()=>{
         gamescore= 0;
         currentscore.textContent = 0;
         gameover = false
-        rollDice()
+        rollDie()
     }
     else {
-        rollDice()
+        rollDie()
     }
     
 }
 }
 
-rollDice.addEventListener("click", checkGameStatus)
+rollDie.addEventListener("click", checkGameStatus)
